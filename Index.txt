@@ -1,0 +1,9 @@
+*1. Day1 [Fundamentals of JS] - Topics to learns backend
+    a) Introduction
+    b) Fundamentals of JavaScript
+    c) Arrays [ foreach , map , filter , find , indexof ]
+    d) Objects in JavaScript
+    e) Functions and return
+    f) Asynchronous JavaScript coding
+
+-------------------------------------------------------------------------------------------------
