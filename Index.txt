@@ -7,3 +7,58 @@
     f) Asynchronous JavaScript coding
 
 -------------------------------------------------------------------------------------------------
+*2. Day2 [Introduction to Node.js]  
+     a)Introduction
+        Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine.
+
+     b)Installing Node.js and npm.
+        i) Download and install node js from internet.
+        ii) How to check installed or not [go to terminal type node -v, if version come its install]
+        iii) Node will give us run time environment untill it run on terminal
+
+        iV) npm init -y to install package.json
+
+     c)Working with Node and npm
+
+     d)Working with Modules
+        i)filesystem
+          a)writeFile
+          b)appendFile
+          c)copyfile
+          d)rename
+          e)unlink
+          f)rmdir [remove directory]
+
+        ii)http
+          a)createserver
+          b)http
+
+     e)File system operations
+     f)Understanding HTTP module  
+
+-------------------------------------------------------------------------------------------------
+*3. Day3 [NPM Basics & Advanced Features]    
+   a)Introduction
+      npm -> node pacakage manager
+      NPM is short for node package manager, an online directory that contains the various already registered open-source packages. 
+
+   b)NPM Understanding
+      NPM is a package manager used to install, delete, and update Javascript packages on your machine. 
+      NPX is a package executer, and it is used to execute javascript packages directly, without installing them.
+      
+   c)Installing and uninstalling anything basics & advanced
+      i)install -> npm i packageName or npm install packageName
+      ii)ubstall -> npm uninstall packageName
+
+   d)Installing particular versions
+      ->npm i packageName@1.0.1 [version] 
+
+   e)Understanding Node modules
+      In Node. js, Modules are the blocks of encapsulated code that communicate with an external application on the basis of their related functionality. 
+      Modules can be a single file or a collection of multiple files/folders.
+
+   f)Dependencies & Devdependencies
+      A dependency is a library that a project needs to function effectively. 
+      DevDependencies are the packages a developer needs during development.
+
+   g)Scripts - understanding default scripts PATH and custom scripts 
