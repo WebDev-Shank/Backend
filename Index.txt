@@ -134,3 +134,53 @@
    // app.listen(3333);
 
 -------------------------------------------------------------------------------------------------
+*5. Day5 [Form Handling, Sessions & Cookies]    
+   a)Form handling
+
+   b)What is Session & Cookies theoretical
+
+   c)express.json & express.urlencoded
+
+
+-------------------------------------------------------------------------------------------------
+*6. Day6 [EJS, Dynamic routing, Initializing project]    
+
+   a)Idea of mini project
+   
+   b)Initialize a project with npm
+      i)npm install -y
+      ii)npm install express
+
+   c)Steps for project learning 
+   
+   d)Setting up parsers for form
+      app.use(express.json());
+      app.use(express.urlencoded({ extended: true }));
+
+   e)Setting up ejs for ejs pages [ejs is same as htm but we can do dynamic calculation with this]
+      i)npm install ejs
+
+      ii)setup ejs as view engine
+        -> app.set("view engine", "ejs");
+        -> app.get("/", (req, res) => {
+               // to get render through html
+                  res.render("index");
+               });
+      iii)> create views folder 
+            -> create index.ejs file to render on internet      
+
+   f)Setting up public static files
+      i)we want to use css,images,javascript
+      
+   g)Dynamic routing
+      => //*dynamic routing
+         // :username is dynamic path
+         // req.params.username to get the value
+         app.get("/profile/:username", (req, res) => {
+            // res.send(`Welcome - ` + req.params.username);
+            res.send(`Welcome - ${req.params.username}`);
+         });
+
+-------------------------------------------------------------------------------------------------
+
+*7.
